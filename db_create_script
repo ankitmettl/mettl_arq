@@ -19,15 +19,15 @@ db.admin.insert({
 
 db.associate.insert({
   "f_name": "Ankit",
-  "l_name": "Abhishek"
+  "l_name": "Abhishek",
   "contact": "8890276720"
   }
 )
 
 db.sme.insert({
   "f_name": "Ankit",
-  "l_name": "Abhishek"
-  "contact": "8890276720"
+  "l_name": "Abhishek",
+  "contact": "8890276720",
   "rating": 10,
   "owner_id": "56f5357fb7547e70b18cebed"
   }
