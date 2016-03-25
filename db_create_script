@@ -52,7 +52,7 @@ db.question_bank.insert({
   "last_edit_time": "1994-09-21T13:44:00Z",
   "last_edit_user_id": "56f5357fb7547e70b18cebed"
   }
-}
+)
 
 db.questions({
   "topic_id": "56f5357fb7547e70b18cebed",
@@ -64,7 +64,7 @@ db.questions({
   "option4": "$ 85,000",
   "create_time": "1994-09-21T13:44:00Z",
   "last_modified": "1994-09-21T13:44:00Z",
-  "last_user_id": "56f5357fb7547e70b18cebed"
+  "last_user_id": "56f5357fb7547e70b18cebed",
   "difficulty": "easy",
   "starred": 0,
   "spell_check": 0,
