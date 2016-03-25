@@ -1,0 +1,77 @@
+use arq
+
+db.users.insert({
+  "email": "ankit.abhishek@mettl.com",
+  "pass": "password",
+  "ac_type": "admin",
+  "active": "yes",
+  "last_login": "1994-09-21T13:44:00Z",
+  "last_ip": "127.0.0.1",
+  "reg_date": "1994-09-21T13:44:00Z"
+  }
+)
+
+db.admin.insert({
+  "f_name": "Ankit",
+  "l_name": "Abhishek"
+  }
+)
+
+db.associate.insert({
+  "f_name": "Ankit",
+  "l_name": "Abhishek"
+  "contact": "8890276720"
+  }
+)
+
+db.sme.insert({
+  "f_name": "Ankit",
+  "l_name": "Abhishek"
+  "contact": "8890276720"
+  "rating": 10,
+  "owner_id": "56f5357fb7547e70b18cebed"
+  }
+)
+
+db.topics.insert({
+  "topic_name": "Quantitative Aptitude",
+  "topic_desc": "Questions relating to quatitative aptitude.",
+  "create_time": "1994-09-21T13:44:00Z"
+  }
+)
+
+db.question_bank.insert({
+  "bank_name" : "Ankit's Quant 1",
+  "bank_desc": "Quant Bank 1 for Mettl",
+  "sme_id": "56f5357fb7547e70b18cebed",
+  "create_time": "1994-09-21T13:44:00Z",
+  "spell_check": 0,
+  "grammer_check": 0,
+  "plag_check": 0,
+  "duplicacy_check": 0,
+  "last_edit_time": "1994-09-21T13:44:00Z",
+  "last_edit_user_id": "56f5357fb7547e70b18cebed"
+  }
+}
+
+db.questions({
+  "topic_id": "56f5357fb7547e70b18cebed",
+  "bank_id": "56f5357fb7547e70b18cebed",
+  "q_text": "Mr. A gave 40% of the money he had to Mr. B. He also gave 20% of the remaining amount to each of his three sons. Half the amount now left was spent by Mr. A on renovating his house and the remaining $ 12,000 was deposited in the bank. How much money did Mr. A have initially?",
+  "option1": "$ 2,50,000",
+  "option2": "$ 1,75,000",
+  "option3": "$ 1,00,000",
+  "option4": "$ 85,000",
+  "create_time": "1994-09-21T13:44:00Z",
+  "last_modified": "1994-09-21T13:44:00Z",
+  "last_user_id": "56f5357fb7547e70b18cebed"
+  "difficulty": "easy",
+  "starred": 0,
+  "spell_check": 0,
+  "grammer_check": 0,
+  "duplicate_q_id": "0",
+  "plagiarism_link": "http://google.com",
+  }
+)
+
+show collections
