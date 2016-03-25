@@ -54,7 +54,7 @@ db.question_bank.insert({
   }
 )
 
-db.questions({
+db.questions.insert({
   "topic_id": "56f5357fb7547e70b18cebed",
   "bank_id": "56f5357fb7547e70b18cebed",
   "q_text": "Mr. A gave 40% of the money he had to Mr. B. He also gave 20% of the remaining amount to each of his three sons. Half the amount now left was spent by Mr. A on renovating his house and the remaining $ 12,000 was deposited in the bank. How much money did Mr. A have initially?",
